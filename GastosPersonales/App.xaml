@@ -2,9 +2,12 @@
 <Application xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:GastosPersonales"
+             xmlns:converters="clr-namespace:GastosPersonales.Converters"
              x:Class="GastosPersonales.App">
     <Application.Resources>
         <ResourceDictionary>
+            <converters:TipoToSignConverter x:Key="TipoToSignConverter" />
+            <converters:TipoToColorConverter x:Key="TipoToColorConverter" />
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="Resources/Styles/Colors.xaml" />
                 <ResourceDictionary Source="Resources/Styles/Styles.xaml" />
