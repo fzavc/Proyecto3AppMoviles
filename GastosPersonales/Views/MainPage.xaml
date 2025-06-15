@@ -1,0 +1,56 @@
+﻿<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:GastosPersonales.ViewModels"
+    x:Class="GastosPersonales.Views.MainPage">
+
+    <ContentPage.BindingContext>
+        <viewmodels:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <Grid>
+        <VerticalStackLayout Padding="20" Spacing="10">
+
+            <!-- Panel de resumen -->
+            <Frame>
+                <Grid ColumnDefinitions="*,*" RowDefinitions="Auto,Auto,Auto">
+                    <Label Text="Balance:" Grid.Column="0" FontSize="20" />
+                    <Label Text="{Binding Balance}" Grid.Column="1" FontSize="20" />
+                    <Label Text="Ingresos:" Grid.Row="1" Grid.Column="0" />
+                    <Label Text="{Binding Ingresos}" Grid.Row="1" Grid.Column="1" />
+                    <Label Text="Gastos:" Grid.Row="2" Grid.Column="0" />
+                    <Label Text="{Binding Gastos}" Grid.Row="2" Grid.Column="1" />
+                </Grid>
+            </Frame>
+
+            <!-- Lista de transacciones -->
+            <CollectionView ItemsSource="{Binding Transacciones}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="LightGray" Margin="0,5">
+                            <HorizontalStackLayout Spacing="10">
+                                <Label Text="{Binding Descripcion}" FontAttributes="Bold" />
+                                <Label Text="{Binding Monto}" />
+                                <Label Text="{Binding Tipo}" />
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+        </VerticalStackLayout>
+
+        <!-- Botón flotante -->
+        <Button
+            Text="+"
+            WidthRequest="60"
+            HeightRequest="60"
+            CornerRadius="30"
+            BackgroundColor="Purple"
+            TextColor="White"
+            FontSize="30"
+            HorizontalOptions="End"
+            VerticalOptions="End"
+            Margin="20"
+            Clicked="OnAgregarClicked" />
+    </Grid>
+</ContentPage>

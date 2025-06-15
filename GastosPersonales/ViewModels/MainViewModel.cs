@@ -1,8 +1,8 @@
 // ViewModels/MainViewModel.cs
 using System.Collections.ObjectModel;
-using System.Windows.Input;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using GastosPersonales.Models;
 
 namespace GastosPersonales.ViewModels;
 
@@ -20,24 +20,17 @@ public partial class MainViewModel : ObservableObject
     [ObservableProperty]
     double gastos;
 
-    [ObservableProperty]
-    string descripcion;
-
-    [ObservableProperty]
-    double monto;
-
-    [ObservableProperty]
-    string tipo = "Ingreso";
+    public MainViewModel()
+    {
+        CargarTransacciones();
+    }
 
     [RelayCommand]
-    public async Task AgregarTransaccion(string tipo)
+    public async Task AgregarTransaccion(Transaccion t)
     {
-        Tipo = tipo;
-        var t = new Transaccion { Descripcion = descripcion, Monto = monto, Tipo = tipo };
         await BaseDatos.Insertar(t);
         await CargarTransacciones();
     }
-
 
     public async Task CargarTransacciones()
     {
