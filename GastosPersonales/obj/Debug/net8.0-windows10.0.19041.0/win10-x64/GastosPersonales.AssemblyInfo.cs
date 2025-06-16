@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GastosPersonales")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+dc605a583f9aeb3bd1e3af86a7aed7620afa2edc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+63bb07f092e59de53377b9a3cb5d4a54fb0e5606")]
 [assembly: System.Reflection.AssemblyProductAttribute("GastosPersonales")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GastosPersonales")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

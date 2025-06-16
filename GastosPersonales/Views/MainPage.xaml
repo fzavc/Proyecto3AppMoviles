@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage 
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
@@ -13,20 +14,49 @@
 
     <AbsoluteLayout>
 
-        <!-- Contenedor principal con balance y lista -->
+        <!-- Fondo morado decorativo -->
+        <Frame 
+            AbsoluteLayout.LayoutBounds="0,0,1,0.35"
+            AbsoluteLayout.LayoutFlags="All"
+            BackgroundColor="#FF31005B"
+            CornerRadius="0"
+            HasShadow="False"
+            Padding="0" />
+
+        <!-- Contenedor principal -->
         <Grid Padding="20"
               AbsoluteLayout.LayoutBounds="0,0,1,1"
               AbsoluteLayout.LayoutFlags="All"
               RowSpacing="10">
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="Auto" />
-                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" /> <!-- Hola -->
+                <RowDefinition Height="Auto" /> <!-- Nombre -->
+                <RowDefinition Height="Auto" /> <!-- Balance -->
+                <RowDefinition Height="Auto" /> <!-- Transacciones: -->
+                <RowDefinition Height="*" />    <!-- Lista -->
             </Grid.RowDefinitions>
 
-            <!-- Panel balance -->
-            <Frame Grid.Row="0" Padding="15" HasShadow="True" CornerRadius="10" Margin="0,0,0,10">
+            <!-- Saludo -->
+            <Label Text="Hola,"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Grid.Row="0" />
+
+            <Label Text="Francisca Zavala"
+                   FontSize="24"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   Grid.Row="1" />
+
+            <!-- Panel de balance -->
+            <Frame Grid.Row="2"
+                   Padding="15"
+                   HasShadow="True"
+                   CornerRadius="10"
+                   Margin="0,10,0,10"
+                   BackgroundColor="White">
                 <Grid ColumnDefinitions="*,*"
                       RowDefinitions="Auto,Auto,Auto">
                     <Label Text="Balance:" Grid.Column="0" FontSize="20" />
@@ -38,33 +68,43 @@
                 </Grid>
             </Frame>
 
-            <!-- Texto "Transacciones:" -->
-            <Label Text="Transacciones:" Grid.Row="1" FontAttributes="Bold" FontSize="18" Margin="0,0,0,5" />
+            <!-- Título "Transacciones:" -->
+            <Label Text="Transacciones:"
+                   Grid.Row="3"
+                   FontAttributes="Bold"
+                   FontSize="18"
+                   Margin="0,0,0,5"
+                   TextColor="Black" />
 
             <!-- Lista de transacciones -->
-            <CollectionView Grid.Row="2" ItemsSource="{Binding Transacciones}" VerticalOptions="FillAndExpand">
+            <CollectionView Grid.Row="4"
+                            ItemsSource="{Binding Transacciones}"
+                            VerticalOptions="FillAndExpand">
 
                 <CollectionView.ItemTemplate>
                     <DataTemplate x:DataType="models:Transaccion">
-                        <Frame BorderColor="LightGray" Margin="0,5" CornerRadius="8" Padding="10">
-                            <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
-                                <Label Text="{Binding Descripcion}" 
-                                       FontAttributes="Bold" 
-                                       TextColor="Black"
-                                       VerticalOptions="Center" />
-                                <Label Text="{Binding MontoConSigno}" 
-                                       TextColor="{Binding ColorMonto}" 
-                                       VerticalOptions="Center" />
-                                <Label Text="{Binding Fecha, StringFormat='{}{0:dd/MM/yyyy}'}" 
-                                       HorizontalOptions="EndAndExpand" 
-                                       VerticalOptions="Center" 
-                                       FontSize="12" 
-                                       TextColor="Gray"/>
-                            </HorizontalStackLayout>
-                        </Frame>
+                        <HorizontalStackLayout Padding="10"
+                                               Spacing="10"
+                                               VerticalOptions="Center">
+                            <Label Text="{Binding Descripcion}" 
+                                   FontAttributes="Bold" 
+                                   TextColor="Black"
+                                   VerticalOptions="Center" />
+
+                            <Label Text="{Binding MontoConSigno}" 
+                                   TextColor="{Binding ColorMonto}" 
+                                   VerticalOptions="Center" />
+
+                            <Label Text="{Binding Fecha, StringFormat='{}{0:dd/MM/yyyy}'}" 
+                                   HorizontalOptions="EndAndExpand" 
+                                   VerticalOptions="Center" 
+                                   FontSize="12" 
+                                   TextColor="Gray"/>
+                        </HorizontalStackLayout>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
             </CollectionView>
+
         </Grid>
 
         <!-- Botón flotante + -->
@@ -72,10 +112,10 @@
                 WidthRequest="60"
                 HeightRequest="60"
                 CornerRadius="30"
-                BackgroundColor="Purple"
+                BackgroundColor="#FF31005B"
                 TextColor="White"
                 FontSize="30"
-                AbsoluteLayout.LayoutBounds="1,1,60,60"
+                AbsoluteLayout.LayoutBounds="1,1,70,70"
                 AbsoluteLayout.LayoutFlags="PositionProportional"
                 Clicked="OnAgregarClicked" />
 

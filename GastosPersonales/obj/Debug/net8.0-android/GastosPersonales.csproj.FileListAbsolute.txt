@@ -1,3 +1,11 @@
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\GastosPersonales.runtimeconfig.json
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\GastosPersonales.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\GastosPersonales.pdb
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales.apk
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales.aab
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales-Signed.aab
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales-Signed.apk
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales-Signed.apk.idsig
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\build.props
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\adb.props
@@ -114,17 +122,9 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.AssemblyInfo.cs
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.csproj.CoreCompileInputs.cache
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.sourcelink.json
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\XamlC.stamp
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.pdb
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\GastosPersonales.runtimeconfig.json
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\GastosPersonales.dll
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\GastosPersonales.pdb
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales.apk
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales.aab
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales-Signed.aab
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales-Signed.apk
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\com.companyname.gastospersonales-Signed.apk.idsig
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\XamlC.stamp
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.genruntimeconfig.cache
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPersonales.runtimeconfig.json.bin
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\bin\com.companyname.gastospersonales.apk
@@ -134,6 +134,8 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\res\values\colors.xml
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\uploadflags.txt
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\resolvedassemblies.hash
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\arm64-v8a\System.Private.CoreLib.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\armeabi-v7a\System.Private.CoreLib.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\ar\Microsoft.Maui.Controls.resources.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\ca\Microsoft.Maui.Controls.resources.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\CommunityToolkit.Mvvm.dll
@@ -171,7 +173,6 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Extensions.Primitives.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Compatibility.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.dll
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.HotReload.Forms.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.pdb
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.Xaml.pdb
@@ -183,9 +184,6 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.pdb
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.Core.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualBasic.dll
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.TapContract.dll
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Primitives.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Win32.Registry.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Mono.Android.dll
@@ -291,7 +289,6 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Numerics.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Numerics.Vectors.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.ObjectModel.dll
-C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Private.DataContractSerialization.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Private.Uri.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Private.Xml.dll
@@ -376,6 +373,8 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\uk\Microsoft.Maui.Controls.resources.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\vi\Microsoft.Maui.Controls.resources.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\WindowsBase.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\x86\System.Private.CoreLib.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\x86_64\System.Private.CoreLib.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.Annotations.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.DiskLruCache.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Xamarin.Android.Glide.dll
@@ -1060,3 +1059,8 @@ C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-and
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.TapContract.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\bin\Debug\net8.0-android\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
 C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\GastosPe.8CE94C8A.Up2Date
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.Maui.Controls.HotReload.Forms.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.MobileTapContracts.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.TapContract.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\Microsoft.VisualStudio.DesignTools.XamlTapContract.dll
+C:\Users\franc\OneDrive\Desktop\Proyecto 3\GastosPersonales\obj\Debug\net8.0-android\android\assets\System.Private.CoreLib.dll
