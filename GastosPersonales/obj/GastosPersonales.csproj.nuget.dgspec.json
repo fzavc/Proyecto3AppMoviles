@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\franc\\OneDrive\\Desktop\\Proyecto 3\\GastosPersonales\\GastosPersonales.csproj": {}
+    "C:\\Users\\franc\\OneDrive\\Desktop\\P3\\GastosPersonales\\GastosPersonales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\franc\\OneDrive\\Desktop\\Proyecto 3\\GastosPersonales\\GastosPersonales.csproj": {
+    "C:\\Users\\franc\\OneDrive\\Desktop\\P3\\GastosPersonales\\GastosPersonales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyecto 3\\GastosPersonales\\GastosPersonales.csproj",
+        "projectUniqueName": "C:\\Users\\franc\\OneDrive\\Desktop\\P3\\GastosPersonales\\GastosPersonales.csproj",
         "projectName": "GastosPersonales",
-        "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyecto 3\\GastosPersonales\\GastosPersonales.csproj",
+        "projectPath": "C:\\Users\\franc\\OneDrive\\Desktop\\P3\\GastosPersonales\\GastosPersonales.csproj",
         "packagesPath": "C:\\Users\\franc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\Proyecto 3\\GastosPersonales\\obj\\",
+        "outputPath": "C:\\Users\\franc\\OneDrive\\Desktop\\P3\\GastosPersonales\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [

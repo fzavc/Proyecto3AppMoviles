@@ -14,7 +14,7 @@
 
     <AbsoluteLayout>
 
-        <!-- Fondo morado decorativo -->
+        <!-- Para mostrar el fondo morado -->
         <Frame 
             AbsoluteLayout.LayoutBounds="0,0,1,0.35"
             AbsoluteLayout.LayoutFlags="All"
@@ -23,7 +23,7 @@
             HasShadow="False"
             Padding="0" />
 
-        <!-- Contenedor principal -->
+        <!-- Definiciones -->
         <Grid Padding="20"
               AbsoluteLayout.LayoutBounds="0,0,1,1"
               AbsoluteLayout.LayoutFlags="All"
@@ -37,7 +37,6 @@
                 <RowDefinition Height="*" />    <!-- Lista -->
             </Grid.RowDefinitions>
 
-            <!-- Saludo -->
             <Label Text="Hola,"
                    FontSize="24"
                    FontAttributes="Bold"
@@ -50,7 +49,7 @@
                    TextColor="White"
                    Grid.Row="1" />
 
-            <!-- Panel de balance -->
+            <!-- Para mostrar el balance -->
             <Frame Grid.Row="2"
                    Padding="15"
                    HasShadow="True"
@@ -68,7 +67,6 @@
                 </Grid>
             </Frame>
 
-            <!-- Título "Transacciones:" -->
             <Label Text="Transacciones:"
                    Grid.Row="3"
                    FontAttributes="Bold"
@@ -76,7 +74,7 @@
                    Margin="0,0,0,5"
                    TextColor="Black" />
 
-            <!-- Lista de transacciones -->
+            <!-- Para mostrar lista de transacciones -->
             <CollectionView Grid.Row="4"
                             ItemsSource="{Binding Transacciones}"
                             VerticalOptions="FillAndExpand">
@@ -107,7 +105,7 @@
 
         </Grid>
 
-        <!-- Botón flotante + -->
+        <!-- Para mostrar el botón + -->
         <Button Text="+"
                 WidthRequest="60"
                 HeightRequest="60"

@@ -1,4 +1,3 @@
-// Services/BaseDatos.cs
 using GastosPersonales.Models;
 using SQLite;
 
