@@ -15,9 +15,7 @@ public static class BaseDatos
         await db.CreateTableAsync<Transaccion>();
     }
 
-    public static async Task Insertar(Transaccion t) =>
-        await db.InsertAsync(t);
+    public static async Task Insertar(Transaccion t) => await db.InsertAsync(t);
 
-    public static async Task<List<Transaccion>> Obtener() =>
-        await db.Table<Transaccion>().ToListAsync();
+    public static async Task<List<Transaccion>> Obtener() => await db.Table<Transaccion>().ToListAsync();
 }
