@@ -16,7 +16,7 @@ public partial class MainPage : ContentPage
     protected override async void OnAppearing()
     {
         base.OnAppearing();
-        await vm.CargarTransacciones(); // recarga los datos al volver
+        await vm.CargarTransacciones(); 
     }
 
       private async void OnAgregarClicked(object sender, EventArgs e)

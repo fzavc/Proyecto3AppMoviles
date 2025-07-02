@@ -14,7 +14,7 @@
 
     <AbsoluteLayout>
 
-        <!-- Para mostrar el fondo morado -->
+        <!-- Para mostrar el cuadro morado -->
         <Frame 
             AbsoluteLayout.LayoutBounds="0,0,1,0.35"
             AbsoluteLayout.LayoutFlags="All"
@@ -30,11 +30,11 @@
               RowSpacing="10">
 
             <Grid.RowDefinitions>
-                <RowDefinition Height="Auto" /> <!-- Hola -->
-                <RowDefinition Height="Auto" /> <!-- Nombre -->
-                <RowDefinition Height="Auto" /> <!-- Balance -->
-                <RowDefinition Height="Auto" /> <!-- Transacciones: -->
-                <RowDefinition Height="*" />    <!-- Lista -->
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" /> 
+                <RowDefinition Height="Auto" /> 
+                <RowDefinition Height="*" /> 
             </Grid.RowDefinitions>
 
             <Label Text="Hola,"
@@ -74,7 +74,7 @@
                    Margin="0,0,0,5"
                    TextColor="Black" />
 
-            <!-- Para mostrar lista de transacciones -->
+            <!-- Para mostrar la lista de transacciones -->
             <CollectionView Grid.Row="4"
                             ItemsSource="{Binding Transacciones}"
                             VerticalOptions="FillAndExpand">
